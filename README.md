@@ -1,12 +1,25 @@
-# Cambio Claro — Demo
+# Cambio Claro
 
-Simulador de una casa de cambios: cálculo de compra/venta, cotizaciones y control de caja con datos ficticios.
+Aplicación de cotización de divisas construida con **Django** y **Python**.
 
-## Herramientas
-- HTML5
-- CSS moderno y responsive
-- JavaScript nativo para los cálculos en tiempo real
-- Tasas y operaciones de demostración; no son cotizaciones ni transacciones reales
+## Funcionalidades
+- Vista web de calculadora de compra y venta de USD.
+- Endpoint JSON `/cotizar/?monto=100&operacion=buy` validado en el backend.
+- Modelo Django `Cotizacion` preparado para persistir tasas.
+
+## Stack real
+- Python 3
+- Django 5.1
+- SQLite para desarrollo local
+- HTML y CSS para la interfaz
 
 ## Ejecutar
-Abrí `index.html` o serví la carpeta con un servidor estático.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
+```
+
+Abrí http://127.0.0.1:8000/.
