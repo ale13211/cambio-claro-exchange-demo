@@ -43,4 +43,4 @@ Abrí [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 ## Perfil
 
-Proyecto de [Alejandro Insfrán](https://alejandroinsfran.dev/), desarrollador Full Stack y analista de sistemas.
+Proyecto de [Alejandro Insfran](https://alejandroinsfran.dev/), desarrollador Full Stack y analista de sistemas.
